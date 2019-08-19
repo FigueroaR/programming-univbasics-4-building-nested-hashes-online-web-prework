@@ -35,6 +35,7 @@ def monopoly_with_third_tier
 end
 
 def monopoly_with_fourth_tier
+<<<<<<< HEAD
   monopoly_with_fourth_tier= 
     {:railroads => 
       {:pieces=>4, 
@@ -55,6 +56,10 @@ def monopoly_with_fourth_tier
     }
   
   return monopoly_with_fourth_tier
+=======
+  
+  return monopoly_with_fourth_tier[:railroads][:names][]
+>>>>>>> 3d7158bf33c6823629f18d3f4fc5ade644cd10c7
 end
   # When you start writing the implementation for this method, copy the Hash
   # you built in the previous method. Run the tests. They will fail, but
